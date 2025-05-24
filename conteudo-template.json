@@ -1,0 +1,502 @@
+{
+  "site": {
+    "nome": "Solstock - Soluções para Armazenamento",
+    "descricao": "Especialistas em soluções práticas para armazenamento e organização em casa ou empresas. Cobrimos qualquer orçamento!",
+    "paletaCores": {
+      "primaria": "#F7941D",
+      "secundaria": "#1A1A1A",
+      "accent": "#29ABE2",
+      "texto": "#1A1A1A",
+      "textoClaro": "#ffffff",
+      "fundo": "#ffffff",
+      "fundoSecundario": "#f5f5f5",
+      "destaque": "#F7941D",
+      "escuro": "#000000",
+      "claro": "#ffffff"
+    }
+  },
+  "header": {
+    "oculta": false,
+    "logo": {
+      "texto": "MEU SITE NOVO",
+      "cor": "#29ABE2",
+      "imagem": "/placeholder.jpg",
+      "alt": "SLOGAN DA SUA MARCA",
+      "slogan": "SLOGAN DA SUA MARCA"
+    },
+    "headerFundo": "#ffffff",
+    "menu": {
+      "itens": [
+        {
+          "texto": "Início",
+          "link": "/",
+          "cor": "#0a2463"
+        },
+        {
+          "texto": "Produto",
+          "link": "#produto",
+          "cor": "#0a2463"
+        },
+        {
+          "texto": "Benefícios",
+          "link": "#benefits",
+          "cor": "#0a2463"
+        },
+        {
+          "texto": "Sobre",
+          "link": "#about",
+          "cor": "#0a2463"
+        },
+        {
+          "texto": "Depoimentos",
+          "link": "#testimonials",
+          "cor": "#0a2463"
+        },
+        {
+          "texto": "Contato",
+          "link": "#contact",
+          "cor": "#0a2463"
+        }
+      ]
+    }
+  },
+  "hero": {
+    "titulo": "Crie um Titulo de Impacto Aqui",
+    "topheader": "INSIRA UMA FRASE CURTA",
+    "imagemMobile": "/imagem-escritorio.webp",
+    "imagemDesktop": "/imagem-escritorio.webp",
+    "subtitulo": "Insira um subtitulo para o seu titulo, falando um pouco mais.",
+    "promotion": "INSIRA UMA PROMOÇÃO, OU DEIXE VAZIO PARA NÃO EXIBIR",
+    "textoBotao": "Texto do botão 1",
+    "linkBotao": "{whatsapp.numero}",
+    "textoBotao2": "Texto do botão 2",
+    "linkBotao2": "{whatsapp.numero}",
+    "corFundo": "#29ABE2",
+    "corTexto": "#0a2463",
+    "corBotao": "#29ABE2",
+    "corTextoBotao": "#ffffff",
+    "destaque": {
+      "texto": "COBRIMOS QUALQUER ORÇAMENTO",
+      "cor": "#0a2463",
+      "corFundo": "rgba(255, 255, 255, 0.3)",
+      "corBorda": "rgba(41, 171, 226, 0.3)"
+    },
+    "observacao": "Observação sobre o serviço, ou deixe vazio para não exibir"
+  },
+  "produto": {
+    "oculta": false,
+    "titulo": "SUB-TÍTULO AQUI",
+    "subtitulo": "Fale um pouco sobre o produto",
+    "descricao": "Fale sobre o produto do cliente aqui. Aproveite para ressaltar qualidades e vantagens.",
+    "caracteristicas": [
+      {
+        "titulo": "Benefício 1",
+        "descricao": "Descrição do benefício 1",
+        "icone": "check-circle",
+        "cor": "#29ABE2"
+      },
+      {
+        "titulo": "Benefício 2",
+        "descricao": "Descrição do benefício 2",
+        "icone": "zap",
+        "cor": "#29ABE2"
+      },
+      {
+        "titulo": "Benefício 3",
+        "descricao": "Descrição do benefício 3",
+        "icone": "truck",
+        "cor": "#29ABE2"
+      }
+    ],
+    "corFundo": "#ffffff",
+    "corTexto": "#0a2463",
+    "imagemFundo": "/salmao.png",
+    "imagemPrincipal": "/coco.png",
+    "textoImagemPrincipal": "Texto mockado sobre o produto ou serviço.",
+    "seloImagemPrincipal": {
+      "texto": "Qualidade Premium",
+      "corFundo": "#29ABE2",
+      "corTexto": "#ffffff"
+    },
+    "beneficiosTitulo": "Benefícios Essenciais do Produto",
+    "botao": {
+      "texto": "Texto do botão 3",
+      "link": "#contact",
+      "corFundo": "#29ABE2",
+      "corTexto": "#ffffff"
+    },
+    "aplicacoesTitulo": "Aplicações Recomendadas",
+    "aplicacoes": [
+      "Texto da aplicação 1",
+      "Texto da aplicação 2",
+      "Texto da aplicação 3",
+      "Texto da aplicação 4",
+      "Texto da aplicação 5",
+      "Texto da aplicação 6",
+      "Texto da aplicação 7",
+      "Texto da aplicação 8"
+    ],
+    "galeria": [
+      {
+        "imagem": "/galeria1.jpg",
+        "alt": "Imagem 1 da galeria"
+      },
+      {
+        "imagem": "/galeria2.jpg",
+        "alt": "Imagem 2 da galeria"
+      },
+      {
+        "imagem": "/galeria3.jpg",
+        "alt": "Imagem 3 da galeria"
+      },
+      {
+        "imagem": "/galeria4.jpg",
+        "alt": "Imagem 4 da galeria"
+      }
+    ],
+    "compromisso": {
+      "titulo": "Nosso Compromisso",
+      "corNumero": "#29ABE2",
+      "itens": [
+        {
+          "numero": "01",
+          "titulo": "Benefício 1",
+          "descricao": "Descrição do benefício 1",
+          "destaque": {
+            "texto": "Texto do destaque 1",
+            "corTexto": "#ffffff",
+            "corFundo": "rgba(41, 171, 226, 0.2)",
+            "corBorda": "#29ABE2"
+          }
+        },
+        {
+          "numero": "02",
+          "titulo": "Benefício 2",
+          "descricao": "Descrição do benefício 2",
+          "destaque": {
+            "texto": "Texto do destaque 2",
+            "corTexto": "#ffffff",
+            "corFundo": "rgba(41, 171, 226, 0.2)",
+            "corBorda": "#29ABE2"
+          }
+        },
+        {
+          "numero": "03",
+          "titulo": "Melhor Preço",
+          "descricao": "Descrição do benefício 3",
+          "destaque": {
+            "texto": "Texto do destaque 3",
+            "corTexto": "#ffffff",
+            "corFundo": "rgba(41, 171, 226, 0.2)",
+            "corBorda": "#29ABE2"
+          }
+        }
+      ],
+      "botao": {
+        "texto": "Texto do botão 4",
+        "link": "#contact",
+        "corBorda": "#000000",
+        "corTexto": "#000000",
+        "corFundo": "#ffffff",
+        "corFundoHover": "#000000",
+        "corTextoHover": "#ffffff"
+      }
+    }
+  },
+  "benefits": {
+    "oculta": false,
+    "tituloHeader": "Nossos Diferenciais",
+    "titulo": "Texto mockado sobre o produto ou serviço.",
+    "subtitulo": "Texto mockado sobre o produto ou serviço.",
+    "corFundo": "#ffffff",
+    "corTexto": "#0a2463",
+    "imagemFundo": "/ice-texture.png",
+    "itens": [
+      {
+        "titulo": "Motivo 1",
+        "descricao": "Descrição do motivo 1",
+        "icone": "fish",
+        "cor": "#29ABE2"
+      },
+      {
+        "titulo": "Motivo 2",
+        "descricao": "Descrição do motivo 2",
+        "icone": "snowflake",
+        "cor": "#29ABE2"
+      },
+      {
+        "titulo": "Motivo 3",
+        "descricao": "Descrição do motivo 3",
+        "icone": "dollar-sign",
+        "cor": "#29ABE2"
+      }
+    ]
+  },
+  "sobre": {
+    "oculta": false,
+    "tituloHeader": "Sobre Nós",
+    "titulo": "Sobre nós",
+    "descricao": "Somos especialistas em...",
+    "texto": "Escreva sobre a empresa aqui. A nossa empresa nasceu da missão de oferecer a melhor solução em xxxx para xxxxx e região. Combinamos tecnologia e expertise para produzir xxxxx de alta performance, ideal para negócios que exigem máxima eficiência em xxxxx e conservação.",
+    "textoDestaque": "Escreva um texto de destaque aqui. COBRIMOS QUALQUER ORÇAMENTO.",
+    "corFundo": "#ffffff",
+    "corTexto": "#0a2463",
+    "imagemFundo": "/ice-texture.png",
+    "imagemPrincipal": "/placeholder.jpg",
+    "altImagemPrincipal": "Imagem da empresa",
+    "seloImagemPrincipal": {
+      "texto": "Texto mockado sobre o produto ou serviço.",
+      "corFundo": "#29ABE2",
+      "corTexto": "#ffffff"
+    },
+    "textoImagemPrincipal": "Nossa Empresa"
+  },
+  "testimonials": {
+    "oculta": false,
+    "tituloHeader": "Depoimentos de Clientes",
+    "titulo": "O que nossos clientes dizem",
+    "subtitulo": "A satisfação dos nossos clientes é a nossa maior conquista. Confira o que eles têm a dizer sobre nossos produtos e serviços.",
+    "corFundo": "#ffffff",
+    "corTexto": "#0a2463",
+    "imagemFundo": "/ice-texture.png",
+    "itens": [
+      {
+        "nome": "Maria Silva",
+        "cargo": "Proprietária de Loja",
+        "texto": "A qualidade dos produtos é excelente e o atendimento é sempre muito atencioso. O preço competitivo e a facilidade de retirada ajudam muito na nossa logística diária.",
+        "imagem": "/business-icons/store.jpg",
+        "rating": 5,
+        "icone": "star",
+        "cor": "#29ABE2"
+      },
+      {
+        "nome": "João Santos",
+        "cargo": "Gerente Comercial",
+        "texto": "Para nosso negócio, a qualidade é fundamental. Os produtos são de excelente qualidade e mantêm a integridade por mais tempo. Além disso, o fato de cobrirem orçamentos faz toda a diferença nos custos.",
+        "imagem": "/business-icons/office.jpg",
+        "rating": 4.9,
+        "icone": "star",
+        "cor": "#29ABE2"
+      },
+      {
+        "nome": "Carla Mendes",
+        "cargo": "Coordenadora de Eventos",
+        "texto": "Nos eventos que organizo, preciso de grande volume de produtos e confiança no fornecedor. A empresa nunca falha na qualidade e quantidade, com preço justo e a retirada é prática, facilitando nossa operação.",
+        "imagem": "/business-icons/event.jpg",
+        "rating": 5,
+        "icone": "star",
+        "cor": "#29ABE2"
+      }
+    ]
+  },
+  "contato": {
+    "oculta": false,
+    "titulo": "Entre em Contato",
+    "subtitulo": "Estamos aqui para atender você",
+    "corFundo": "#1a1a1a",
+    "corTexto": "#ffffff",
+    "corPrimaria": "#29ABE2",
+    "corSecundaria": "#0a2463",
+    "imagemFundo": "/ice-pattern.png",
+    "textoDestaque": "COBRIMOS QUALQUER ORÇAMENTO!",
+    "textoIntroducao": "Entre em contato conosco para solicitar um orçamento ou esclarecer dúvidas sobre nossos produtos. Garantimos o melhor preço da região, {destaque}",
+    "informacoes": {
+      "endereco": {
+        "texto": "R. Francisco Macieira 235, Fortaleza",
+        "icone": "building2",
+        "titulo": "Endereço"
+      },
+      "telefone": {
+        "texto": "(85) 98435-3984",
+        "icone": "phone",
+        "titulo": "WhatsApp / Telefone"
+      },
+      "email": {
+        "texto": "email@email.com",
+        "link": "mailto:email@email.com",
+        "icone": "mail",
+        "titulo": "Email"
+      },
+      "instagram": {
+        "texto": "@instagram",
+        "link": "https://www.instagram.com/instagram",
+        "icone": "instagram",
+        "titulo": "Instagram"
+      },
+      "horario": {
+        "texto": "Segunda a Sexta: 08:00 – 18:00\nSábado: 08:00 – 12:00\nDomingo: Fechado",
+        "icone": "clock",
+        "titulo": "Horário de Atendimento"
+      }
+    },
+    "whatsapp": {
+      "numero": "seu numero de whatsapp",
+      "texto": "Solicite um Orçamento ou Tire Suas Dúvidas!",
+      "corFundo": "#25D366",
+      "corTexto": "#ffffff",
+      "icone": "message-square"
+    },
+    "mapa": {
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178362600101!2d55.27437637546861!3d25.19719797780803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1spt-BR!2sbr!4v1710864000000!5m2!1spt-BR!2sbr",
+      "altura": "400"
+    },
+    "lembrete": {
+      "titulo": "Lembrete Importante",
+      "texto": "Nosso atendimento é EXCLUSIVO PARA RETIRADA NO LOCAL. Oferecemos o melhor preço da região. Traga seu orçamento: {destaque}",
+      "icone": "map-pin",
+      "corFundo": "#29ABE2",
+      "corTexto": "#ffffff"
+    },
+    "indicadores": [
+      {
+        "titulo": "Melhor preço",
+        "descricao": "Cobrimos qualquer orçamento comprovado",
+        "cor": "#29ABE2",
+        "corFundo": "#29ABE210"
+      },
+      {
+        "titulo": "Qualidade garantida",
+        "descricao": "Produtos de alta qualidade",
+        "cor": "#29ABE2",
+        "corFundo": "#29ABE210"
+      }
+    ],
+    "formulario": {
+      "webhookLink": "https://api.webhook.site/seu-webhook-aqui",
+      "nome": {
+        "label": "Nome",
+        "placeholder": "Digite seu nome completo",
+        "obrigatorio": true
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Digite seu melhor e-mail",
+        "obrigatorio": true
+      },
+      "mensagem": {
+        "label": "Mensagem",
+        "placeholder": "Digite sua mensagem ou pedido",
+        "obrigatorio": true
+      },
+      "botao": {
+        "texto": "Enviar Mensagem",
+        "cor": "#29ABE2",
+        "corTexto": "#ffffff"
+      }
+    }
+  },
+  "footer": {
+    "oculta": false,
+    "corFundo": "#ffffff",
+    "corTexto": "#000000",
+    "corPrimaria": "#000000",
+    "corSecundaria": "#ffffff",
+    "imagemFundo": "/ice-pattern.png",
+    "logo": {
+      "imagem": "/placeholder.jpg",
+      "alt": "Texto mockado sobre o produto ou serviço.",
+      "texto": "SUA",
+      "textoDestaque": "MARCA",
+      "slogan": "SUA MARCA SLOGAN"
+    },
+    "descricao": "Fale um pouco sobre a empresa aqui",
+    "navegacao": {
+      "titulo": "NAVEGAÇÃO",
+      "itens": [
+        {
+          "texto": "Início",
+          "link": "/"
+        },
+        {
+          "texto": "Sobre Nós",
+          "link": "/#about"
+        },
+        {
+          "texto": "Contato",
+          "link": "/#contact"
+        }
+      ]
+    },
+    "contato": {
+      "titulo": "CONTATO RÁPIDO",
+      "itens": [
+        {
+          "texto": "(85) 99999-9999",
+          "link": "tel:+5585999999999",
+          "icone": "phone"
+        },
+        {
+          "texto": "contato@empresa.com",
+          "link": "mailto:contato@empresa.com",
+          "icone": "mail"
+        },
+        {
+          "texto": "@empresa",
+          "link": "https://instagram.com/empresa",
+          "icone": "instagram"
+        },
+        {
+          "texto": "Empresa",
+          "link": "https://facebook.com/empresa",
+          "icone": "facebook"
+        }
+      ]
+    },
+    "copyright": {
+      "texto": "Todos os direitos reservados.",
+      "desenvolvedor": {
+        "texto": "Desenvolvido por",
+        "nome": "SEU NOME",
+        "link": "https://soltechsoftware.com",
+        "icone": "external-link"
+      }
+    }
+  },
+  "faq": {
+    "oculta": false,
+    "tituloHeader": "PERGUNTAS FREQUENTES",
+    "titulo": "Perguntas Frequentes",
+    "subtitulo": "Reunimos as perguntas mais comuns sobre nossos produtos e serviços. Se você não encontrar a resposta que procura, entre em contato conosco.",
+    "corFundo": "#f9fafb",
+    "corTexto": "#0a2463",
+    "corPrimaria": "#29ABE2",
+    "imagemFundo": "/ice-texture.png",
+    "itens": [
+      {
+        "pergunta": "Como funciona o processo de compra?",
+        "resposta": "Nosso processo é simples e transparente. Você pode fazer seu pedido através do WhatsApp, e após a confirmação, basta retirar em nossa loja no horário combinado.",
+        "valor": "item-1"
+      },
+      {
+        "pergunta": "Vocês realizam entregas?",
+        "resposta": "Não realizamos entregas no momento. Nosso foco é oferecer o melhor preço e qualidade, com retirada exclusiva em nossa loja.",
+        "valor": "item-2"
+      },
+      {
+        "pergunta": "Como posso fazer um pedido?",
+        "resposta": "É muito fácil! Basta entrar em contato pelo WhatsApp através do botão em nosso site ou adicionar nosso número (85) 99999-9999. Nossa equipe está pronta para atendê-lo.",
+        "valor": "item-3"
+      },
+      {
+        "pergunta": "Quais são os horários de funcionamento?",
+        "resposta": "Nosso horário de atendimento é de Segunda a Sexta, das 09:00 às 18:00, e aos Sábados, das 09:00 às 13:00. Fechamos aos Domingos.",
+        "valor": "item-4"
+      },
+      {
+        "pergunta": "Vocês aceitam cartões de crédito?",
+        "resposta": "Sim! Aceitamos todas as bandeiras de cartão de crédito e débito, além de PIX e dinheiro em espécie.",
+        "valor": "item-5"
+      }
+    ],
+    "ajuda": {
+      "texto": "Ainda tem dúvidas? Estamos à disposição para ajudar.",
+      "botao": {
+        "texto": "Fale Conosco",
+        "link": "#contact",
+        "icone": "phone",
+        "corFundo": "#29ABE2",
+        "corTexto": "#ffffff"
+      }
+    }
+  }
+}
