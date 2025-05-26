@@ -1,6 +1,7 @@
 "use client";
 import styled from "styled-components";
 import Image from "next/image";
+import { getConfig } from '@/lib/config';
 
 const Banner = styled.section`
   width: 100%;
@@ -48,33 +49,18 @@ const CTA = styled.a`
 `;
 
 export default function Home() {
+  const config = getConfig();
+
   return (
-    <main>
-      <Banner>
-        <Image src="/banner-lorenci.jpg" alt="Lorenci - Sofisticação e Exclusividade" width={900} height={320} style={{borderRadius: 16, objectFit: 'cover'}} />
-      </Banner>
-      <h1 style={{fontFamily: 'var(--font-playfair), var(--font-lora), serif', fontSize: '2.5rem', textAlign: 'center', marginBottom: '2rem', fontWeight: 700}}>
-        Novidades & Destaques
-      </h1>
-      <Destaques>
-        {/* Exemplo de produtos em destaque */}
-        <Produto>
-          <Image src="/produto1.jpg" alt="Vestido Longo Dourado" width={180} height={220} style={{borderRadius: 8, objectFit: 'cover'}} />
-          <h2 style={{fontFamily: 'var(--font-playfair), var(--font-lora), serif', fontWeight: 700, fontSize: '1.1rem', margin: '1rem 0 0.5rem'}}>Vestido Longo Dourado</h2>
-          <span style={{color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.1rem'}}>R$ 599,90</span>
-        </Produto>
-        <Produto>
-          <Image src="/produto2.jpg" alt="Blazer Alfaiataria" width={180} height={220} style={{borderRadius: 8, objectFit: 'cover'}} />
-          <h2 style={{fontFamily: 'var(--font-playfair), var(--font-lora), serif', fontWeight: 700, fontSize: '1.1rem', margin: '1rem 0 0.5rem'}}>Blazer Alfaiataria</h2>
-          <span style={{color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.1rem'}}>R$ 429,90</span>
-        </Produto>
-        <Produto>
-          <Image src="/produto3.jpg" alt="Conjunto Elegante" width={180} height={220} style={{borderRadius: 8, objectFit: 'cover'}} />
-          <h2 style={{fontFamily: 'var(--font-playfair), var(--font-lora), serif', fontWeight: 700, fontSize: '1.1rem', margin: '1rem 0 0.5rem'}}>Conjunto Elegante</h2>
-          <span style={{color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.1rem'}}>R$ 749,90</span>
-        </Produto>
-      </Destaques>
-      <CTA href="#catalogo">Ver Catálogo Completo</CTA>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
+        <h1 className="text-4xl font-bold text-center mb-8">
+          Bem-vindo à {config.site.nome}
+        </h1>
+        <p className="text-center text-lg mb-8">
+          {config.site.descricao}
+        </p>
+      </div>
     </main>
   );
 }
